@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xinghai.framework.view.MaterialLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ml="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:gravity="center"
+    ml:alpha="200"
+    ml:color_="#FFD306"
+    ml:duration="200"
+    ml:scale="1.1">
+
+    <Button
+        android:id="@+id/my_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#33CC99"
+        android:padding="10dp"
+        android:text="点击一下"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/my_imageview1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/my_button"
+        android:layout_marginTop="30dp"
+        android:background="#33CC99"
+        android:contentDescription="@string/app_name"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_imageview1"
+        android:layout_marginTop="20dp"
+        android:background="#33CC99"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f0f0f0"
+            android:text="in viewgroup"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/my_imageview2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#33aa66"
+            android:contentDescription="@string/app_name"
+            android:padding="10dp"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+</com.xinghai.framework.view.MaterialLayout>
