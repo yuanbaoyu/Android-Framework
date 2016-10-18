@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.xinghai.frameworkdemo.convenientbannerdemo.TestConvenientBannerActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,5 +17,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void toTestMaterialLayoutActivity(View view){
         startActivity(new Intent(this, TestMaterialLayoutActivity.class));
+    }
+
+    public void toTestSlidingLayoutActivity(View view){
+        startActivity(new Intent(this, TestSlidingLayoutActivity.class));
+    }
+
+    public void toTestBanner(View view){
+        startActivity(new Intent(this, TestConvenientBannerActivity.class));
     }
 }

@@ -2,6 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test_sliding_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,31 +10,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.xinghai.frameworkdemo.MainActivity">
-
+    android:gravity="center_horizontal"
+    tools:context="com.xinghai.frameworkdemo.TestSlidingLayoutActivity">
 
     <Button
-        android:text="MaterialLayout的使用方法"
+        android:text="WebView_SlidingLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestMaterialLayoutActivity"
+        android:onClick="toWebView"
         />
 
     <Button
-        android:text="SlidingLayout的使用方法"
+        android:text="ListView_SlidingLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestSlidingLayoutActivity"
+        android:onClick="toListView"
         />
 
     <Button
-        android:text="Banner的使用方法"
+        android:text="RecyclerView_SlidingLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestBanner"
+        android:onClick="toRecyclerView"
         />
 
 </LinearLayout>
