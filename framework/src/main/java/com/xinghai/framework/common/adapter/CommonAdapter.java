@@ -3,9 +3,6 @@ package com.xinghai.framework.common.adapter;
 import android.content.Context;
 import android.view.LayoutInflater;
 
-import com.xinghai.framework.common.adapter.base.ItemViewDelegate;
-import com.xinghai.framework.common.adapter.base.ViewHolder;
-
 import java.util.List;
 
 /**

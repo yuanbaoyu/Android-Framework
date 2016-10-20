@@ -1,4 +1,4 @@
-package com.xinghai.framework.common.adapter.base;
+package com.xinghai.framework.common.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

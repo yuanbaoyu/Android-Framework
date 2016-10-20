@@ -26,4 +26,8 @@ public class MainActivity extends AppCompatActivity {
     public void toTestBanner(View view){
         startActivity(new Intent(this, TestConvenientBannerActivity.class));
     }
+
+    public void toTestBaseAdapter(View view){
+        startActivity(new Intent(this, TestBaseAdapterActivity.class));
+    }
 }

@@ -1,8 +1,10 @@
-package com.xinghai.frameworkdemo;
+package com.xinghai.frameworkdemo.slidingdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
+
+import com.xinghai.frameworkdemo.R;
 
 /**
  * Created by Linhh on 16/4/15.

@@ -21,13 +21,21 @@
 
         <activity android:name=".TestSlidingLayoutActivity"/>
 
-        <activity android:name=".WebViewActivity"/>
+        <activity android:name=".slidingdemo.WebViewActivity"/>
 
-        <activity android:name=".ListViewActivity"/>
+        <activity android:name=".slidingdemo.ListViewActivity"/>
 
-        <activity android:name=".RecyclerViewActivity"/>
+        <activity android:name=".slidingdemo.RecyclerViewActivity"/>
 
         <activity android:name=".convenientbannerdemo.TestConvenientBannerActivity"/>
+
+        <activity android:name=".TestBaseAdapterActivity" />
+
+        <activity android:name=".baseadapterdemo.MultiItemListViewActivity" />
+
+        <activity android:name=".baseadapterdemo.RecyclerViewActivity" />
+
+        <activity android:name=".baseadapterdemo.MultiItemRvActivity" />
 
     </application>
 

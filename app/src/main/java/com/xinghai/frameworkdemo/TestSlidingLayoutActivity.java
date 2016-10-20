@@ -5,6 +5,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.xinghai.frameworkdemo.R;
+import com.xinghai.frameworkdemo.slidingdemo.ListViewActivity;
+import com.xinghai.frameworkdemo.slidingdemo.RecyclerViewActivity;
+import com.xinghai.frameworkdemo.slidingdemo.WebViewActivity;
+
 public class TestSlidingLayoutActivity extends AppCompatActivity {
 
     @Override

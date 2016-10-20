@@ -5,10 +5,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.xinghai.framework.common.adapter.base.ItemViewDelegate;
-import com.xinghai.framework.common.adapter.base.ItemViewDelegateManager;
-import com.xinghai.framework.common.adapter.base.ViewHolder;
-
 import java.util.List;
 
 /**

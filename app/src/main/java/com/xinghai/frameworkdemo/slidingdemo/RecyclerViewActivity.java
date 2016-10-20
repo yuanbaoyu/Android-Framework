@@ -1,4 +1,4 @@
-package com.xinghai.frameworkdemo;
+package com.xinghai.frameworkdemo.slidingdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.xinghai.frameworkdemo.R;
 
 /**
  * Created by Linhh on 16/4/18.
