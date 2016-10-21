@@ -3,7 +3,7 @@ package com.xinghai.frameworkdemo.baseadapterdemo.adapter;
 import android.content.Context;
 
 
-import com.xinghai.framework.common.adapter.MultiItemTypeAdapter;
+import com.xinghai.framework.adapter.MultiItemTypeAdapter;
 import com.xinghai.frameworkdemo.baseadapterdemo.bean.ChatMessage;
 
 import java.util.List;

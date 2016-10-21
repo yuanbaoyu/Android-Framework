@@ -14,11 +14,11 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.xinghai.framework.common.adapter.CommonAdapter;
-import com.xinghai.framework.common.adapter.ViewHolder;
-import com.xinghai.framework.common.wrapper.EmptyWrapper;
-import com.xinghai.framework.common.wrapper.HeaderAndFooterWrapper;
-import com.xinghai.framework.common.wrapper.LoadMoreWrapper;
+import com.xinghai.framework.adapter.CommonAdapter;
+import com.xinghai.framework.adapter.ViewHolder;
+import com.xinghai.framework.wrapper.EmptyWrapper;
+import com.xinghai.framework.wrapper.HeaderAndFooterWrapper;
+import com.xinghai.framework.wrapper.LoadMoreWrapper;
 import com.xinghai.frameworkdemo.R;
 
 import java.util.ArrayList;
