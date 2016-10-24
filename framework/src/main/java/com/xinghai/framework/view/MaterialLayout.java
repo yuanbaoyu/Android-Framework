@@ -129,7 +129,7 @@ public class MaterialLayout extends RelativeLayout{
                 DEFAULT_DURATION);
         mFrameRate = typedArray
                 .getInteger(R.styleable.MaterialLayout_framerate, DEFAULT_FRAME_RATE);
-        mColorAlpha = typedArray.getInteger(R.styleable.MaterialLayout_alpha, DEFAULT_ALPHA);
+        mColorAlpha = typedArray.getInteger(R.styleable.MaterialLayout_alpha_, DEFAULT_ALPHA);
         mCircleScale = typedArray.getFloat(R.styleable.MaterialLayout_scale, DEFAULT_SCALE);
 
         typedArray.recycle();

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FrameworkDemo</string>
     <string name="action_settings">setting</string>
+    <string name="title_activity_test_menu_item_view">TestMenuItemViewActivity</string>
 </resources>

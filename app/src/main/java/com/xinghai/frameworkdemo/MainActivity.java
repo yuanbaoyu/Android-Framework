@@ -30,4 +30,8 @@ public class MainActivity extends AppCompatActivity {
     public void toTestBaseAdapter(View view){
         startActivity(new Intent(this, TestBaseAdapterActivity.class));
     }
+
+    public void toTestMenuItemView(View view){
+        startActivity(new Intent(this, TestMenuItemViewActivity.class));
+    }
 }

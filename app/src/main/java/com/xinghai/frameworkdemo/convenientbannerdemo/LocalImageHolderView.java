@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.xinghai.framework.banner.holder.Holder;
+import com.xinghai.framework.view.banner.holder.Holder;
 
 /**
  * Created by Sai on 15/8/4.

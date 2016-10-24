@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.xinghai.framework.banner.holder.Holder;
+import com.xinghai.framework.view.banner.holder.Holder;
 import com.xinghai.frameworkdemo.R;
 
 /**

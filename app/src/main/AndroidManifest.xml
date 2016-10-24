@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          android:installLocation="preferExternal"
-          package="com.xinghai.frameworkdemo">
+          package="com.xinghai.frameworkdemo"
+          android:installLocation="preferExternal">
 
     <application
         android:allowBackup="true"
@@ -16,27 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity android:name=".TestMaterialLayoutActivity"/>
-
         <activity android:name=".TestSlidingLayoutActivity"/>
-
         <activity android:name=".slidingdemo.WebViewActivity"/>
-
         <activity android:name=".slidingdemo.ListViewActivity"/>
-
         <activity android:name=".slidingdemo.RecyclerViewActivity"/>
-
         <activity android:name=".convenientbannerdemo.TestConvenientBannerActivity"/>
-
-        <activity android:name=".TestBaseAdapterActivity" />
-
-        <activity android:name=".baseadapterdemo.MultiItemListViewActivity" />
-
-        <activity android:name=".baseadapterdemo.RecyclerViewActivity" />
-
-        <activity android:name=".baseadapterdemo.MultiItemRvActivity" />
-
+        <activity android:name=".TestBaseAdapterActivity"/>
+        <activity android:name=".baseadapterdemo.MultiItemListViewActivity"/>
+        <activity android:name=".baseadapterdemo.RecyclerViewActivity"/>
+        <activity android:name=".baseadapterdemo.MultiItemRvActivity"/>
+        <activity
+            android:name=".TestMenuItemViewActivity"
+            android:label="@string/title_activity_test_menu_item_view"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
