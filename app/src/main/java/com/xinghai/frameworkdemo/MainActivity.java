@@ -42,4 +42,8 @@ public class MainActivity extends AppCompatActivity {
     public void toTestLogger(View view){
         startActivity(new Intent(this, TestLoggerActivity.class));
     }
+
+    public void toTestCrash(View view){
+        startActivity(new Intent(this, TestCrashHandlerActivity.class));
+    }
 }

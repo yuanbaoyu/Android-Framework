@@ -61,4 +61,12 @@
         android:onClick="toTestLogger"
         />
 
+    <Button
+        android:text="CrashHandler的使用方法"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="toTestCrash"
+        />
+
 </LinearLayout>
