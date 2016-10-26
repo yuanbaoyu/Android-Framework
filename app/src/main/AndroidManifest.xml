@@ -23,7 +23,6 @@
         <activity android:name=".slidingdemo.RecyclerViewActivity"/>
         <activity android:name=".convenientbannerdemo.TestConvenientBannerActivity"/>
         <activity android:name=".TestBaseAdapterActivity"/>
-        <activity android:name=".baseadapterdemo.MultiItemListViewActivity"/>
         <activity android:name=".baseadapterdemo.RecyclerViewActivity"/>
         <activity android:name=".baseadapterdemo.MultiItemRvActivity"/>
         <activity
@@ -31,6 +30,7 @@
             android:label="@string/title_activity_test_menu_item_view"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name=".TestLoggerActivity"/>
     </application>
 
 </manifest>

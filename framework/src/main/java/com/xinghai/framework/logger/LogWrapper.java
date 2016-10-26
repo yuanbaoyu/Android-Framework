@@ -15,6 +15,7 @@
  */
 package com.xinghai.framework.logger;
 
+import android.text.TextUtils;
 import android.util.Log;
 
 /**
@@ -59,17 +60,55 @@ public class LogWrapper implements LogNode {
 
         // If an exeption was provided, convert that exception to a usable string and attach
         // it to the end of the msg method.
+        String useThrowableMsg = "";
         if (tr != null) {
-            msg += "\n" + Log.getStackTraceString(tr);
+            useThrowableMsg += "\n" + Log.getStackTraceString(tr);
         }
 
         // This is functionally identical to Log.x(tag, useMsg);
         // For instance, if priority were Log.VERBOSE, this would be the same as Log.v(tag, useMsg)
-        Log.println(priority, tag, useMsg);
+        Log.println(priority, tag, TOP_BORDER);
+
+        Log.println(priority, tag, HORIZONTAL_DOUBLE_LINE + " Thread: " + Thread.currentThread().getName());
+
+        Log.println(priority, tag, MIDDLE_BORDER);
+
+        Log.println(priority, tag, HORIZONTAL_DOUBLE_LINE + " TAG: " + tag);
+
+        if(!TextUtils.isEmpty(useMsg)) {//msg信息
+
+            Log.println(priority, tag, MIDDLE_BORDER);
+
+            Log.println(priority, tag, HORIZONTAL_DOUBLE_LINE + " msg: ");
+
+            Log.println(priority, tag, HORIZONTAL_DOUBLE_LINE + " ");
+
+            String[] lines = useMsg.split(System.getProperty("line.separator"));
+            for (String line : lines) {
+                Log.println(priority, tag, HORIZONTAL_DOUBLE_LINE + " " + line);
+            }
+
+        }
+
+        if(!TextUtils.isEmpty(useThrowableMsg)) {//异常信息
+
+            Log.println(priority, tag, MIDDLE_BORDER);
+
+            Log.println(priority, tag, HORIZONTAL_DOUBLE_LINE + " Throwable: ");
+
+            String[] lines = useThrowableMsg.split(System.getProperty("line.separator"));
+            for (String line : lines) {
+                Log.println(priority, tag, HORIZONTAL_DOUBLE_LINE + " " + line);
+            }
+        }
+
+        Log.println(priority, tag, BOTTOM_BORDER);
+
 
         // If this isn't the last node in the chain, move things along.
         if (mNext != null) {
             mNext.println(priority, tag, msg, tr);
         }
     }
+
 }

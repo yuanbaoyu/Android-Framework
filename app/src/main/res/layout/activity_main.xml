@@ -53,4 +53,12 @@
         android:onClick="toTestMenuItemView"
         />
 
+    <Button
+        android:text="Logger的使用方法"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="toTestLogger"
+        />
+
 </LinearLayout>

@@ -25,6 +25,18 @@ package com.xinghai.framework.logger;
  * anywhere.
  */
 public interface LogNode {
+    /**
+     * Drawing toolbox
+     */
+    char TOP_LEFT_CORNER = '╔';
+    char BOTTOM_LEFT_CORNER = '╚';
+    char MIDDLE_CORNER = '╟';
+    char HORIZONTAL_DOUBLE_LINE = '║';
+    String DOUBLE_DIVIDER = "════════════════════════════════════════════";
+    String SINGLE_DIVIDER = "────────────────────────────────────────────";
+    String TOP_BORDER = TOP_LEFT_CORNER + DOUBLE_DIVIDER + DOUBLE_DIVIDER;
+    String BOTTOM_BORDER = BOTTOM_LEFT_CORNER + DOUBLE_DIVIDER + DOUBLE_DIVIDER;
+    String MIDDLE_BORDER = MIDDLE_CORNER + SINGLE_DIVIDER + SINGLE_DIVIDER;
 
     /**
      * Instructs first LogNode in the list to print the log data provided.
