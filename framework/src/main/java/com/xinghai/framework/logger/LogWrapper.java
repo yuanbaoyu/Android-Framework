@@ -50,7 +50,7 @@ public class LogWrapper implements LogNode {
      *           to extract and print useful information.
      */
     @Override
-    public void println(int priority, String tag, String msg, Throwable tr) {
+    public synchronized void println(int priority, String tag, String msg, Throwable tr) {
         // There actually are log methods that don't take a msg parameter.  For now,
         // if that's the case, just convert null to the empty string and move on.
         String useMsg = msg;

@@ -45,7 +45,7 @@ public class LogView extends TextView implements LogNode {
      *           to extract and print useful information.
      */
     @Override
-    public void println(int priority, String tag, String msg, Throwable tr) {
+    public synchronized void println(int priority, String tag, String msg, Throwable tr) {
 
         
         String priorityStr = null;
