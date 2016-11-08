@@ -20,7 +20,7 @@ import android.view.View;
 import android.view.ViewConfiguration;
 
 import com.xinghai.framework.R;
-import com.xinghai.framework.logger.Log;
+import com.xinghai.framework.common.logger.Log;
 
 /**
  * Created on 16/10/24.

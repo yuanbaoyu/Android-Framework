@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xinghai.framework.logger;
+package com.xinghai.framework.common.logger;
 
 /**
  * Helper class for a list (or tree) of LoggerNodes.

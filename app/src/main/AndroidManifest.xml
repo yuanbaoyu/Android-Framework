@@ -4,6 +4,7 @@
           android:installLocation="preferExternal">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -35,6 +36,7 @@
         </activity>
         <activity android:name=".TestLoggerActivity"/>
         <activity android:name=".TestCrashHandlerActivity"/>
+        <activity android:name=".TestRxJavaActivity"/>
     </application>
 
 </manifest>

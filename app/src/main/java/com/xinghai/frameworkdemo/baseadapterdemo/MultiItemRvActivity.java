@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Toast;
 
-import com.xinghai.framework.adapter.CommonAdapter;
+import com.xinghai.framework.common.adapter.CommonAdapter;
 import com.xinghai.framework.wrapper.LoadMoreWrapper;
 import com.xinghai.frameworkdemo.R;
 import com.xinghai.frameworkdemo.baseadapterdemo.adapter.ChatAdapterForRv;

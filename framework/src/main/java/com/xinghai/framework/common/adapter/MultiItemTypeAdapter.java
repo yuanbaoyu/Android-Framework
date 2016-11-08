@@ -1,4 +1,4 @@
-package com.xinghai.framework.adapter;
+package com.xinghai.framework.common.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

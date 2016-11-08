@@ -1,4 +1,4 @@
-package com.xinghai.framework.adapter;
+package com.xinghai.framework.common.adapter;
 
 import android.support.v4.util.SparseArrayCompat;
 

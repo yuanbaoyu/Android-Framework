@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -12,61 +12,75 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.xinghai.frameworkdemo.MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:text="MaterialLayout的使用方法"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestMaterialLayoutActivity"
-        />
+        <Button
+            android:text="MaterialLayout的使用方法"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="toTestMaterialLayoutActivity"
+            />
 
-    <Button
-        android:text="SlidingLayout的使用方法"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestSlidingLayoutActivity"
-        />
+        <Button
+            android:text="SlidingLayout的使用方法"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="toTestSlidingLayoutActivity"
+            />
 
-    <Button
-        android:text="Banner的使用方法"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestBanner"
-        />
+        <Button
+            android:text="Banner的使用方法"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="toTestBanner"
+            />
 
-    <Button
-        android:text="BaseAdapter的使用方法"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestBaseAdapter"
-        />
+        <Button
+            android:text="BaseAdapter的使用方法"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="toTestBaseAdapter"
+            />
 
-    <Button
-        android:text="MenuItemView的使用方法"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestMenuItemView"
-        />
+        <Button
+            android:text="MenuItemView的使用方法"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="toTestMenuItemView"
+            />
 
-    <Button
-        android:text="Logger的使用方法"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestLogger"
-        />
+        <Button
+            android:text="Logger的使用方法"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="toTestLogger"
+            />
 
-    <Button
-        android:text="CrashHandler的使用方法"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="toTestCrash"
-        />
+        <Button
+            android:text="CrashHandler的使用方法"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="toTestCrash"
+            />
 
-</LinearLayout>
+        <Button
+            android:text="RxJava的使用示例"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="toTestRxJava"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -14,7 +14,7 @@
 
     <fragment
         android:id="@+id/log_fragment"
-        android:name="com.xinghai.framework.logger.LogFragment"
+        android:name="com.xinghai.framework.common.logger.LogFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

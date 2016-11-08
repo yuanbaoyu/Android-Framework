@@ -1,4 +1,4 @@
-package com.xinghai.framework.crash;
+package com.xinghai.framework.common.crash;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;

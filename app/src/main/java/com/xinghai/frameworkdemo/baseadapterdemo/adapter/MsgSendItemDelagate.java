@@ -1,7 +1,7 @@
 package com.xinghai.frameworkdemo.baseadapterdemo.adapter;
 
-import com.xinghai.framework.adapter.ItemViewDelegate;
-import com.xinghai.framework.adapter.ViewHolder;
+import com.xinghai.framework.common.adapter.ItemViewDelegate;
+import com.xinghai.framework.common.adapter.ViewHolder;
 import com.xinghai.frameworkdemo.R;
 import com.xinghai.frameworkdemo.baseadapterdemo.bean.ChatMessage;
 

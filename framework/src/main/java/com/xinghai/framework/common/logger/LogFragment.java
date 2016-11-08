@@ -29,7 +29,7 @@
  * limitations under the License.
  */
 
-package com.xinghai.framework.logger;
+package com.xinghai.framework.common.logger;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
